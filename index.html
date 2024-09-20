@@ -1,11 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-    </head>
-    <body>
-        <div class="postcard">Hello</div>
-    </body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="styles.css" />
+		<title>Document</title>
+	</head>
+	<body>
+		<div class="postcard">
+			Hello
+			<div class="postcard-header">
+				<h1>My Postcard</h1>
+				<img
+					src="https://raw.githubusercontent.com/breatheco-de/exercise-postcard/e63a7916530cc850bd92aa1c2e19191837fb5c80/.learn/assets/4geeks.png"
+				/>
+			</div>
+			<div class="postcard-body">
+				<div class="body-left">
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed rhoncus eros.<br />Curabitur non tristique leo. Vivamus eu
+						lacus eget nisi convallis pulvinar.
+					</p>
+				</div>
+				<div class="body-right">
+					<label>Nombre</label>
+					<input type="text" name="Nombre" size="5" />
+					<label>Email</label>
+					<input type="text" name="Email" size="5" />
+					<label>Comentario</label>
+					<input type="text" name="Comentario" size="10" height="10" />
+				</div>
+			</div>
+			<div class="postcard-footer">
+				<button>Send My Postcard</button>
+			</div>
+		</div>
+	</body>
 </html>
